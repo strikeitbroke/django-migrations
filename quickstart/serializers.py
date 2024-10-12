@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from .models import Author, Category, Comment, Article
+from .models import Author, Category, Comment
+from blog.models import Article
 
 
 # Author serializer
